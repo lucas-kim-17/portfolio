@@ -1,0 +1,366 @@
+body { 
+    font-family: 'Lato' !important;
+    font-size: 16px !important; 
+}
+
+i { 
+    color: #F9F9ED;
+    padding: 2rem 1rem 0 0; 
+    margin: 0 0 2rem 0; 
+}
+
+i:hover { 
+    color: #656565; 
+    transition: .2s ease;
+}
+h1 { 
+    font-weight: 375 !important; 
+    font-size: 3rem; 
+}
+h2 { 
+    font-weight: 325 !important; 
+    font-size: 2rem; 
+}
+
+h3 { 
+    font-weight: 300 !important; 
+    font-size: 1.5rem !important; 
+    line-height: 3rem !important ; 
+
+}
+
+h4 { 
+    font-weight: 250 !important; 
+    font-size: 1rem !important; 
+    
+}
+
+#landing-page-funny { 
+    font-size: 1.3rem !important; 
+    font-weight: 275; 
+    padding: 1rem 0; 
+}
+h2{ 
+    font-weight: 350 !important; 
+}
+
+h5 .card-title { 
+    padding: 0 0 1rem 0 !important; 
+}
+
+p { 
+    font-weight: 350;
+    margin: 0 !important; 
+
+}
+ 
+nav { 
+    background-color:transparent !important; 
+    padding: 0.7rem !important;  
+}
+
+.navbar {
+    -webkit-transition: all 0.3s ease-out !important;
+    -moz-transition: all 0.3s ease-out !important;
+    -o-transition: all 0.3s ease-out !important;
+    -ms-transition: all 0.3s ease-out !important;
+    transition: all 0.3s ease-out !important;
+    
+}
+
+.navbar.scrolled {
+    background: #011627 !important; /* IE */
+    background:#011627 !important; /* NON-IE */
+}
+/* button.navbar-toggler { 
+} */
+
+
+a.navbar-brand { 
+    color: #F9F9ED !important; 
+    font-weight: 285 !important; 
+    padding: 0 0 0 6rem;
+    letter-spacing: .35rem;
+    font-size: 1.6rem;
+}
+nav .nav-link {
+    color: #F9F9ED !important;
+    font-weight: 320; 
+    padding: 0 1rem 0 0 !important; 
+    margin: 0 2rem 0 0 !important; 
+
+}
+
+@media only screen and (max-width: 767px) { nav { 
+    background-color: #011627 !important;
+}
+} 
+
+@media only screen and (max-width: 767px) { h1 #main-text { 
+    font-size: 2.5rem !important;
+    padding: 10rem 0 !important; 
+    background-color: #ffffff; 
+} 
+} 
+
+#landing-page{
+    background-image: url('/Users/alikim98/Desktop/portfolio/resources/images/portfolio-pic-2.png') !important; 
+    background-repeat: no-repeat !important;
+    background-position: center !important; 
+    background-size: cover !important; 
+    height: 120vh; 
+    width: auto;
+    position: relative;
+    margin: -20vh 0 0 0; 
+
+}
+
+#landing-page-text {
+    color: #F9F9ED; 
+    float: left; 
+    padding: 50vh 7rem 34rem 7rem; 
+    height: 100%; 
+
+}
+
+@media only screen and (max-width: 640px) { #landing-page-funny { 
+    display: none; 
+}
+
+}
+@media only screen and (max-width: 640px) { #landing-page-text { 
+    padding: 40vh 7rem 34rem 7rem; 
+}
+
+}
+
+
+strong { 
+    font-weight: 300 !important; 
+}
+
+#main-text {
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+    padding: 0 0 1rem 0 !important;   
+
+}
+
+#sub-text { 
+    font-weight: 250 !important; 
+    font-size: 1.5rem !important; 
+    line-height: 2 !important;
+    padding: 1rem 0 1rem 0;  
+}
+
+
+#about-me { 
+    height: auto;
+    background-color: #637074 !important;
+    position: relative; 
+  
+}
+#about-me-main { 
+    padding: 2rem 0; 
+}
+#about-me-text { 
+    margin: 2rem 0 4rem 0; 
+    padding: 0 3.5rem;
+    color: #F9F9ED; 
+    text-align: center;    
+    font-weight: 250 !important; 
+    }
+
+#portfolio { 
+    height: auto;
+    justify-content: space-around;
+    align-content: center;  
+    background-color:#F9F9ED; 
+    color: #011627; 
+    position: relative; 
+}
+
+h1 #portfolio-header { 
+    padding: 0 !important; 
+}
+#portfolio-text { 
+    text-align: center; 
+    padding: 3rem 0 3rem 0; 
+}
+
+
+
+#first-row { 
+    display: flex;
+    align-content: center; 
+}
+
+#cards-portfolio
+.card { 
+    display: inline-flex !important; 
+    justify-content: space-around !important;
+    background-color: rgba(0, 0, 0, 0) !important;  
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    border: none;
+    color: #011627; 
+
+}
+
+.card-image { 
+    position: relative; 
+    border-radius: 1.5rem !important;
+}
+
+.image-overlay { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex; 
+    align-items: center; 
+    flex-wrap: wrap; 
+
+  }
+
+.text-overlay { 
+    position: absolute; 
+    position: 2rem 0; 
+      text-align: center !important; 
+      color: #ffffff;  
+      padding: 0 1rem; 
+      font-weight: 300; 
+      align-items: center;
+      justify-content: center; 
+  }
+
+.card-text{
+    font-weight: 300; 
+    letter-spacing: 2px; 
+    font-size: 1.2rem; 
+
+}
+  #company-name { 
+      font-size: 2vw !important; 
+      font-weight: 400; 
+  }
+
+.card:hover .image-overlay {
+    opacity: 1;
+  }
+
+#cards-portfolio{
+    justify-content: center; 
+    padding: 0 15rem; 
+}
+@media only screen and (max-width: 1200px) { #cards-portfolio { 
+    padding: 0 6rem; 
+}
+
+}
+
+#individual-cards { 
+    margin: 0 0 2rem 0; 
+    background-color: rgba(0,0,0,0) !important; 
+}
+
+.card-text { 
+    border: none !important; 
+    background-color: rgba(0, 0, 0, 0) !important; 
+    font-weight: 300 !important; 
+    letter-spacing: .3rem ; 
+
+}
+
+#company-title { 
+    padding: 0 0 1rem 0; 
+
+}
+
+#company-title a { 
+    text-decoration: none; 
+    color: #011627; 
+}
+#role-description { 
+    padding: 1rem 5rem !important;
+    margin: 0 !important;  
+}
+
+#flyerstack { 
+    background-color: #F9F9ED;
+    color: #011627; 
+}
+h3 #description { 
+    font-weight: 200 !important; 
+    padding: 2rem 0 !important; 
+}
+
+#responsibility { 
+    padding: 1rem 0 !important; 
+}
+
+#overview { 
+    padding: 1rem 4rem !important; 
+}
+
+#result { 
+    padding: 3rem 1rem 1rem 3rem;  
+}
+
+#figure { 
+    float: right !important;
+    padding: 5rem -2rem 0 10rem !important;  
+}
+
+#figure-2 { 
+    float: left !important;
+    padding: 5rem 10rem -2rem 5rem !important;  
+}
+
+#button { 
+    padding: 1rem 1rem 3rem 1rem; 
+}
+
+#contact-me { 
+    background-color: #8693AB; 
+    text-align: center; 
+    position: relative; 
+    padding: 5rem; 
+    color: #F9F9ED;
+}
+
+#contact-form { 
+    display: flex; 
+}
+
+#contacting {
+    align-items: center;
+    justify-content: center; 
+   
+}
+
+#contacts { 
+    display:flex;
+    align-content: center; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none; 
+    color: #F9F9ED;
+    font-size: 1.2rem;  
+}
+
+#contacts:hover { 
+    color: #656565; 
+}
+
+#footer { 
+    position: relative; 
+    padding: 1rem; 
+    background-color: #656565; 
+    color: #F9F9ED;  
+}

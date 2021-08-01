@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="https://kit.fontawesome.com/0a2713de00.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Lucas Kim</title>
+    
+  </head>
+  <body>
+      
+      <!-- navigation component -->
+      <!-- navigation component -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">Lucas Kim</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="myNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about-me-row">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">My Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact</a>
+          </li>
+          </ul>
+      </div>
+  </nav>
+   <!-- end of navigation component -->
+      
+      <!-- landing page -->
+      <div class="container-fluid no-padding" id="landing-page"> 
+          <!-- <div class="bg-image" style="background-image: url('resources/images/portfolio-pic-2.png'); height: 100vh; width: auto;"> </div> -->
+          <div class="row">
+            <div class= "col-lg-8 col-md-12 col-sm-12" id="landing-page-text"> 
+                <h1 id="main-text">Hey, my name's Lucas.</h1>
+                <h3 id="sub-text">I’m a student at UC Berkeley studying business and data science. I find <strong>design,  development, and all things in between wildly fascinating.</strong> </h3>
+                <h4 id="landing-page-funny">Welcome to the 'folio. Make yourself at home.</h4>
+              <a href="https://www.linkedin.com/in/lucas-kim-berkeley/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+              <a href = "mailto: lucaskim@berkeley.edu" target="_blank"><i class="fas fa-envelope-square fa-2x" ></i></a>
+              <a href="https://drive.google.com/drive/folders/1IhxhIAVJWqqePNmg8yZGTw5ehVqhvhIM?usp=sharing" target="_blank"><i class="fab fa-google-drive fa-2x"></i></a>
+            </div>
+            </div>
+          </div>
+
+        <!-- end of landing page-->
+
+        <!-- about me -->
+        <div class="container-fluid no-padding" id="about-me">
+            <div class="row" id="about-me-row"> 
+                <div class="col-fluid" id="about-me-text"> 
+                    <h2 id="about-me-main">About Me</h2>
+                    <h3 id="about-me-text">Born and raised in New Jersey, I set out for an adventure on the west coast as a Data Science and Business double major at UC Berkeley. I’ve always had a passion for captivating audiences - from <a href="https://www.youtube.com/watch?v=MnzZ6op3bMU&pp=sAQA">vlogs</a> I'd share with friends and designing and building products. Through my adventures in the tech-fueled Bay Area, I found that the perfect intersection of my creative and business passions lies in product management. 
+                    <h3 id="about-me-text">In my free time, I love playing tennis, winning Fantasy Football leagues, and (constructively) criticizing user experiences of different things. 
+                        </h3></h3>
+                    <!-- <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>             -->
+                </div>
+            </div>
+        </div>
+        <!-- end of about me-->
+
+        <!-- portfolio -->
+        <div class="container-fluid no-padding" id="portfolio">
+            <div class="row" id="portfolio-text">
+                <h1 id="portfolio-header">My Portfolio</h1>
+                <h3>An inside look at my experience in product and design</h3>
+                </div>
+        
+                    <div class="row row-cols-1 row-cols-md-3 g-4" id="cards-portfolio">
+                        <div class="col" id="individual-cards">
+                          <div class="card text-center h-100">
+                         
+                            <div class="card-image"> 
+                                <img src="/Users/alikim98/Desktop/portfolio/resources/images/flyerstack image.png" class="card-img-top" alt="...">
+                                <a href="flyerstack.html"><div class="image-overlay"> 
+                                    <div class="text-overlay" style="right: 0; left: 0px;">
+                                        <p id="company-name">Flyerstack</p>
+                                        <p>Closed & Open Beta Management and Website Rebrand</p> 
+                                    </div>
+                                </div></a>
+                              
+                            </div>
+                            <div class="card-body">
+                              <!-- <h5 class="card-title">Flyerstack</h5> -->
+                              <p class="card-text">Product Management</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col" id="individual-cards">
+                            <div class="card text-center h-100">
+                            
+                              <div class="card-image"> 
+                                  <img src="resources/images/learningpal image.png" class="card-img-top" alt="...">
+                                  <a href="learningpal.html"><div class="image-overlay"> 
+                                      <div class="text-overlay" style="right: 0; left: 0px;">
+                                          <p id="company-name">LearningPal</p>
+                                          <p> Closed & Open Beta Management and Website Rebrand</p> 
+                                      </div>
+                                  </div></a>
+                                
+                              </div>
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Flyerstack</h5> -->
+                                <p class="card-text">Product Design</p>
+                              </div>
+                            </div>
+                          </div>     
+                          <div class="col" id="individual-cards">
+                            <div class="card text-center h-100">
+                            
+                              <div class="card-image"> 
+                                  <img src="resources/images/steelcase image.png" class="card-img-top" alt="...">
+                                  <a href="steelcase.html"><div class="image-overlay"> 
+                                      <div class="text-overlay" style="right: 0; left: 0px;">
+                                          <p id="company-name">Steelcase</p>
+                                          <p> Redesigning Wheeler Hall</p> 
+                                      </div>
+                                  </div></a>
+                                
+                              </div>
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Flyerstack</h5> -->
+                                <p class="card-text">Spatial Design</p>
+                              </div>
+                            </div>
+                          </div>     <div class="col" id="individual-cards">
+                            <div class="card text-center h-100">
+                            
+                              <div class="card-image"> 
+                                  <img src="resources/images/spotify image.png" class="card-img-top" alt="...">
+                                  <a href="spotify.html"><div class="image-overlay"> 
+                                      <div class="text-overlay" style="right: 0; left: 0px;">
+                                          <p id="company-name">Spotify</p>
+                                          <p>Developing a Full Marketing Strategy for "Hot Country"</p> 
+                                      </div>
+                                  </div></a>
+                                
+                              </div>
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Flyerstack</h5> -->
+                                <p class="card-text">Growth Marketing & Design </p>
+                              </div>
+                            </div>
+                          </div>     <div class="col" id="individual-cards">
+                            <div class="card text-center h-100">
+                            
+                              <div class="card-image"> 
+                                  <img src="resources/images/coursera image.png" class="card-img-top" alt="...">
+                                  <a href="coursera.html"><div class="image-overlay"> 
+                                      <div class="text-overlay" style="right: 0; left: 0px;">
+                                          <p id="company-name">Coursera</p>
+                                          <p>Creating a ranked list of potential offerings</p> 
+                                      </div>
+                                  </div></a>
+                                
+                              </div>
+                              <div class="card-body">
+                                <!-- <h5 class="card-title">Flyerstack</h5> -->
+                                <p class="card-text">Data Optimization</p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                          </div>
+    <!-- end of portfolio section-->
+
+    <!-- contact me section -->
+    <div class="container-fluid no-padding" id="contact-me">
+      <div class="row" id="contact-text">
+        <h1 id="contact-header">Reach out!</h1>
+        <h3>Thanks for stopping by - I'd love to talk about anything! (I can keep secrets)</h3>
+        </div>
+        <div class="row" id="contact-form"> 
+          <div class="col-fluid" id="contacting"> 
+            <a href="mailto: lucaskim@berkeley.edu" id="contacts"><i class="fas fa-envelope-square fa-3x"></i>Email: lucaskim@berkeley.edu </a>
+          </div> 
+          <div class="col-fluid" id="contacting"> 
+            <a href="https://www.linkedin.com/in/lucas-kim-berkeley" id="contacts"><i class="fab fa-linkedin fa-3x"></i>LinkedIn: lucas-kim-berkeley </a>
+          </div> 
+        </div>
+        </div>
+      <!-- end of contact me section -->
+      
+      <div class="container-fluid no-padding" id="footer">
+        <div class="row"> 
+          <div class="col-12"> 
+            © 2021 Lucas Kim, All Rights Reserved.
+              </div>
+              </div>
+      </div>
+
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>                    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="myscript.js"></script>
+  </body>
+</html>
