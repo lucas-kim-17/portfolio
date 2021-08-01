@@ -104,7 +104,7 @@ nav .nav-link {
 } 
 
 #landing-page{
-    background-image: url('/Users/alikim98/Desktop/portfolio/resources/images/portfolio-pic-2.png') !important; 
+    background-image: url(resources/images/portfolio-pic-2.png) !important; 
     background-repeat: no-repeat !important;
     background-position: center !important; 
     background-size: cover !important; 
