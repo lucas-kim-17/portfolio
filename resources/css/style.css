@@ -103,6 +103,18 @@ nav .nav-link {
 } 
 } 
 
+@media only screen and (max-width: 400px) { #landing-page-text { 
+    padding: 20rem 3rem 20rem 3rem !important; 
+}
+} 
+
+
+@media only screen and (max-width: 400px) { #about-me-text { 
+    margin: 2rem 0 2rem 0; 
+    padding: 0 1.5rem !important; 
+}
+} 
+
 #landing-page{
     /* background-image: url("/Users/alikim98/Desktop/portfolio/resources/images/portfolio-pic-2.png") !important;  */
     background-repeat: no-repeat !important;
