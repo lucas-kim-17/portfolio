@@ -53,6 +53,11 @@ p {
     margin: 0 !important; 
 
 }
+
+#portfolio-nav { 
+    background-color: #011627 !important;
+    position: sticky !important;
+}
  
 nav { 
     background-color:transparent !important; 
@@ -146,9 +151,17 @@ nav .nav-link {
 
 }
 
+#vlogs { 
+    text-decoration: none; 
+    color: #F9F9ED; 
+}
+
+#vlogs:hover { 
+    color: #011627
+}
 
 strong { 
-    font-weight: 300 !important; 
+    font-weight: 400 !important; 
 }
 
 #main-text {
