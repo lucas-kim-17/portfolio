@@ -375,3 +375,8 @@ h3 #description {
     background-color: #656565; 
     color: #F9F9ED;  
 }
+
+
+#example-image { 
+    padding: 2rem 0 0 0; 
+}
