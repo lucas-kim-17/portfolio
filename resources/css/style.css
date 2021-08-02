@@ -318,6 +318,7 @@ h1 #portfolio-header {
 #flyerstack { 
     background-color: #F9F9ED;
     color: #011627; 
+    padding: 2rem 0 0 0; 
 }
 h3 #description { 
     font-weight: 200 !important; 
