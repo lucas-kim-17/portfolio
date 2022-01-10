@@ -14,24 +14,24 @@ i:hover {
     transition: .2s ease;
 }
 h1 { 
-    font-weight: 375 !important; 
+    font-weight: 450 !important; 
     font-size: 3rem; 
 }
 h2 { 
-    font-weight: 325 !important; 
-    font-size: 2rem; 
+    font-weight: 400 !important; 
+    font-size: 1.75rem; 
 }
 
 h3 { 
-    font-weight: 300 !important; 
-    font-size: 1.5rem !important; 
+    font-weight: 350 !important; 
+    font-size: 1.25rem !important; 
     line-height: 3rem !important ; 
 
 }
 
 h4 { 
-    font-weight: 250 !important; 
-    font-size: 1rem !important; 
+    font-weight: 300 !important; 
+    font-size: 0.75rem !important; 
     
 }
 
@@ -55,7 +55,7 @@ p {
 }
 
 #portfolio-nav { 
-    background-color: #011627 !important;
+    background-color: #ffffff !important;
     position: sticky !important;
 }
  
@@ -74,22 +74,32 @@ nav {
 }
 
 .navbar.scrolled {
-    background: #011627 !important; /* IE */
-    background:#011627 !important; /* NON-IE */
+    -webkit-box-shadow: 0 6px 4px -4px #999;
+    -moz-box-shadow: 0 6px 4px -4px #999;
+    box-shadow: 0 6px 4px -4px #999;
+    background: #ffffff !important; /* IE */
+    background:#ffffff !important; /* NON-IE */
 }
 /* button.navbar-toggler { 
 } */
 
+/*a.navbar-brand {
+    color: #FFFFFF;
+    font-weight: 285 !important;
+    padding: 0 0 0 6rem;
+    letter-spacing: .35rem;
+    font-size: 1.6rem;
+}*/
 
-a.navbar-brand { 
-    color: #F9F9ED !important; 
+a.navbar-brand {
+    color: #1A1B41 !important;
     font-weight: 285 !important; 
     padding: 0 0 0 6rem;
     letter-spacing: .35rem;
     font-size: 1.6rem;
 }
 nav .nav-link {
-    color: #F9F9ED !important;
+    color: #1A1B41 !important;
     font-weight: 320; 
     padding: 0 1rem 0 0 !important; 
     margin: 0 2rem 0 0 !important; 
@@ -153,11 +163,11 @@ nav .nav-link {
 
 #vlogs { 
     text-decoration: none; 
-    color: #F9F9ED; 
+    color: #1A1B41;
 }
 
 #vlogs:hover { 
-    color: #011627
+    color: #1A1B41
 }
 
 strong { 
@@ -165,14 +175,12 @@ strong {
 }
 
 #main-text {
-    font-weight: 300 !important;
     font-size: 2.5rem !important;
     padding: 0 0 1rem 0 !important;   
 
 }
 
 #sub-text { 
-    font-weight: 250 !important; 
     font-size: 1.5rem !important; 
     line-height: 2 !important;
     padding: 1rem 0 1rem 0;  
@@ -181,27 +189,38 @@ strong {
 
 #about-me { 
     height: auto;
-    background-color: #637074 !important;
+    background-color: #ffffff !important;
     position: relative; 
   
 }
 #about-me-main { 
-    padding: 2rem 0; 
+    padding: 2rem 0 0 0; 
 }
 #about-me-text { 
-    margin: 2rem 0 4rem 0; 
-    padding: 0 3.5rem;
-    color: #F9F9ED; 
+    margin: 2rem 0 0 0; 
+    padding: 0 2rem 2rem 3.5rem;
+    color: #011627;
     text-align: center;    
-    font-weight: 250 !important; 
+    }
+
+#about-me-image { 
+    max-width: 50%;
+    height: auto;
+    margin: auto; 
+    vertical-align: middle;
+    padding: 2rem 0 2rem 0;
+    display: relative;
+    margin-left: auto;
+    margin-right: auto;
+
     }
 
 #portfolio { 
     height: auto;
     justify-content: space-around;
     align-content: center;  
-    background-color:#F9F9ED; 
-    color: #011627; 
+    background-color:#eff1f3;
+    color: #432818;
     position: relative; 
 }
 
@@ -211,6 +230,7 @@ h1 #portfolio-header {
 #portfolio-text { 
     text-align: center; 
     padding: 3rem 0 3rem 0; 
+
 }
 
 
@@ -224,8 +244,10 @@ h1 #portfolio-header {
 .card { 
     display: inline-flex !important; 
     justify-content: space-around !important;
+    border-radius: 1.75rem !important;
     background-color: rgba(0, 0, 0, 0) !important;  
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    
     border: none;
     color: #011627; 
 
@@ -233,7 +255,11 @@ h1 #portfolio-header {
 
 .card-image { 
     position: relative; 
-    border-radius: 1.5rem !important;
+    border-radius: 1.75rem !important;
+}
+
+.card-img-top { 
+    border-radius: 1.75rem !important; 
 }
 
 .image-overlay { 
@@ -250,7 +276,7 @@ h1 #portfolio-header {
     display: flex; 
     align-items: center; 
     flex-wrap: wrap; 
-
+    border-radius: 1.75rem !important;
   }
 
 .text-overlay { 
@@ -281,6 +307,7 @@ h1 #portfolio-header {
 #cards-portfolio{
     justify-content: center; 
     padding: 0 15rem; 
+    border-radius: 2rem !important;
 }
 @media only screen and (max-width: 1200px) { #cards-portfolio { 
     padding: 0 6rem; 
@@ -289,8 +316,9 @@ h1 #portfolio-header {
 }
 
 #individual-cards { 
-    margin: 0 0 2rem 0; 
-    background-color: rgba(0,0,0,0) !important; 
+    margin: 0 0 1.5rem 0; 
+    background-color: rgba(0,0,0,0) !important;
+    border-radius: 1.75rem !important; 
 }
 
 .card-text { 
@@ -308,7 +336,7 @@ h1 #portfolio-header {
 
 #company-title a { 
     text-decoration: none; 
-    color: #011627; 
+    color: #011627;
 }
 #role-description { 
     padding: 1rem 5rem !important;
@@ -316,7 +344,7 @@ h1 #portfolio-header {
 }
 
 #flyerstack { 
-    background-color: #F9F9ED;
+    background-color: #eff1f3;
     color: #011627; 
     padding: 2rem 0 0 0; 
 }
@@ -352,11 +380,11 @@ h3 #description {
 }
 
 #contact-me { 
-    background-color: #8693AB; 
+    background-color: #adb5bd;
     text-align: center; 
     position: relative; 
     padding: 5rem; 
-    color: #F9F9ED;
+    color: #011627;
 }
 
 #contact-form { 
@@ -375,18 +403,18 @@ h3 #description {
     justify-content: center; 
     align-items: center; 
     text-decoration: none; 
-    color: #F9F9ED;
+    color: #011627;
     font-size: 1.2rem;  
 }
 
 #contacts:hover { 
-    color: #656565; 
+    color: #F9F9ED;
 }
 
 #footer { 
     position: relative; 
     padding: 1rem; 
-    background-color: #656565; 
+    background-color: #656565;
     color: #F9F9ED;  
 }
 
